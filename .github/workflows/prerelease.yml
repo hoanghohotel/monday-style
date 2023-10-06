@@ -72,7 +72,7 @@ jobs:
 
             ```
             // To install this prerelease version using npm, please run the following command in your terminal:
-            npm i monday-ui-style@${{ steps.create-update-version.outputs.package_version }}
+            npm i monday-style@${{ steps.create-update-version.outputs.package_version }}
             // If you prefer using Yarn, you can use the following command instead:
             yarn add monday-ui-style@${{ steps.create-update-version.outputs.package_version }}
             ```
